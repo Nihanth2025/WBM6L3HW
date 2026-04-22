@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    color: white;
+    background-image: url("image2.png");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+.m-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation-link{
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid blueviolet;
+    transition: 0.5s ease;
+}
